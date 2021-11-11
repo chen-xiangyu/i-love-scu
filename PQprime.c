@@ -1,7 +1,9 @@
 #include <stdio.h>
-#define N 20
-int prime(int n);     //判断素数 
-int mi(int n,int m);  //求n的m次方 
+#define N 20   
+int prime(int n);   
+//鍒ゆ柇绱犳暟 
+int mi(int n,int m);
+//姹俷鐨刴娆℃柟  
 int main(void){
 	int i, r, sum;
 	for (i=1;i<=N;i++) {
